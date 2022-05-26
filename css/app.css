@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Kiwi+Maru&display=swap');
+
+* {
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Kiwi Maru', serif;
+}
+
+.background {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/662025/abstract.jpg");
+    background-size: cover;
+}
+
+
+/* タイピング */
+.types {
+    display: grid;
+    place-items: center;
+}
+
+.typing-demo {
+    width: 27ch;
+    animation: typing 3s steps(27), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2.5em;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
