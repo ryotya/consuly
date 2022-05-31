@@ -30,16 +30,16 @@
                 </div>
                 <div class="hidden lg:flex">
                     <!-- Current: "border-cyan-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-                    <a href="/office"
+                    <a href="#why"
+                        class="border-transparent text-gray-900 hover:border-gray-400 duration-500 hover:text-gray-400 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium ml-8">
+                        なぜConsuly</a>
+                    <a href="#feature"
                         class="border-transparent text-gray-900 hover:border-gray-400 duration-500 hover:text-gray-400 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium ml-8">
                         業務内容</a>
-                    <a href="/lawyer"
+                    <a href="#example"
                         class="border-transparent text-gray-900 hover:border-gray-400 duration-500 hover:text-gray-400 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium ml-8">
-                        特徴</a>
-                    <a href="/feature"
-                        class="border-transparent text-gray-900 hover:border-gray-400 duration-500 hover:text-gray-400 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium ml-8">
-                        実績</a>
-                    <a href="/fee"
+                        コンサル実績</a>
+                    <a href="#pricing"
                         class="border-transparent text-gray-900 hover:border-gray-400 duration-500 hover:text-gray-400 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium ml-8">
                         料金プラン</a>
                     <!-- <a href="#"
@@ -60,7 +60,7 @@
                         <p class="text-black duration-500 inline-flex items-start px-1 pt-1 text-sm font-medium">
                             受付時間：平日9:00〜19:00</p>
                     </div> -->
-                    <a href="/contact"
+                    <a href="#contact"
                         class="bg-cyan-500 hover:bg-opacity-80 text-white duration-300 inline-flex items-center px-4 text-base font-medium ml-8 rounded m-4">
                         <svg class="h-6 w-6 text-white pr-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
                             stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -94,10 +94,10 @@
     </nav>
     <mobilenav class="float-right w-screen py-8 bg-black">
         <ul class="text-center text-2xl space-y-8 text-white">
-            <li class="py-4"><a href="/office">業務内容</a></li>
-            <li class="py-4"><a href="/lawyer">特徴</a></li>
-            <li class="py-4"><a href="/feature">コンサル実績</a></li>
-            <li class="py-4"><a href="/fee">よくある質問</a></li>
+            <li class="py-4"><a href="#why">なぜConsuly</a></li>
+            <li class="py-4"><a href="#feature">業務内容</a></li>
+            <li class="py-4"><a href="#example">コンサル実績</a></li>
+            <li class="py-4"><a href="#pricing">よくある質問</a></li>
             <li class="py-4"><a href="/contact">お問合せ・ご相談</a></li>
         </ul>
     </mobilenav>
@@ -118,10 +118,10 @@
                         </div>
                         <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                             <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                                <a href="#"
+                                <a href="#feature"
                                     class="z-40 flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md  text-cyan-700 bg-white hover:bg-cyan-50 duration-300 sm:px-8">
                                     コンサル内容確認 </a>
-                                <a href="#"
+                                <a href="#contact"
                                     class="z-40 flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-cyan-500 hover:bg-opacity-80 duration-300 sm:px-8">
                                     無料相談を予約 </a>
                             </div>
@@ -139,7 +139,7 @@
 
 
         <!-- Why section -->
-        <div class="h-screen relative bg-white pt-16 sm:pt-24 lg:pt-32">
+        <div class="h-screen relative bg-white pt-16 sm:pt-24 lg:pt-32" id="why">
             <div class="mx-auto max-w-6xl grid grid-cols-2 sm:gap-24">
                 <div>
                     <img src="/public/why-sbs.png" alt="">
@@ -168,7 +168,7 @@
         </div>
 
         <!-- Feature section with grid -->
-        <div class="relative bg-white relative bg-white pb-16 sm:pb-24 lg:pb-32">
+        <div class="relative bg-white relative bg-white pb-16 sm:pb-24 lg:pb-32" id="feature">
             <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
                 <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">サポートの業務一覧</h2>
                 <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
@@ -312,7 +312,7 @@
         </div>
 
 
-        <!-- Testimonial section -->
+        <!-- Example section -->
         <div class="pb-16 bg-cyan-500 lg:pb-0 lg:z-10 lg:relative">
             <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
                 <div class="relative lg:-my-8">
@@ -347,7 +347,7 @@
         </div>
 
         <!-- Blog section -->
-        <div class="relative bg-white py-16 sm:py-24 lg:py-32">
+        <div class="relative bg-white py-16 sm:py-24 lg:py-32" id="example">
             <div class="relative">
                 <div class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
                     <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">コンサルティング事例</h2>
@@ -429,10 +429,7 @@
 
     <!-- Pricing section -->
     <section>
-        <div class="relative bg-white">
-            <!-- <div class="absolute inset-0" aria-hidden="true">
-                <div class="absolute inset-y-0 right-0 w-1/2 bg-cyan-500"></div>
-            </div> -->
+        <div class="relative bg-white" id="pricing">
             <div class="relative max-w-7xl mx-auto lg:px-8 lg:grid lg:grid-cols-2 mb-24">
                 <div class="bg-white py-16 px-4 sm:py-24 sm:px-6 lg:px-0 lg:pr-8">
                     <div class="max-w-lg mx-auto lg:mx-0">
@@ -499,7 +496,7 @@
                                 </span>
                                 <span>
                                     <span class="flex flex-col text-center">
-                                        <span class="text-5xl font-extrabold text-white tracking-tight">2,500円<span
+                                        <span class="text-5xl font-extrabold text-white tracking-tight">3,000円<span
                                                 class="text-2xl">×時間</span></span>
                                         <span class="mt-2 text-base font-medium text-cyan-200">稼働時給</span>
                                     </span>
@@ -588,7 +585,7 @@
 
     <!-- Contact section -->
     <section>
-        <div class="border border-cyan-500 overflow-hidden sm:px-6 px-8 pt-4 pb-8 mb-24 mx-auto max-w-3xl">
+        <div class="border border-cyan-500 overflow-hidden sm:px-6 px-8 pt-4 pb-8 mb-24 mx-auto max-w-3xl" id="contact">
             <div class="relative max-w-xl mx-auto">
                 <div class="mt-2">
                     <div class="mx-auto py-8">
@@ -670,19 +667,19 @@
         <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
             <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
                 <div class="px-5 py-2">
-                    <a href="/office" class="text-base text-white hover:text-gray-200"> 業務内容 </a>
+                    <a href="#why" class="text-base text-white hover:text-gray-200"> なぜConsuly </a>
                 </div>
 
                 <div class="px-5 py-2">
-                    <a href="/lawyer" class="text-base text-white hover:text-gray-200"> 特徴 </a>
+                    <a href="#feature" class="text-base text-white hover:text-gray-200"> 業務内容 </a>
                 </div>
 
                 <div class="px-5 py-2">
-                    <a href="/feature" class="text-base text-white hover:text-gray-200"> 実績 </a>
+                    <a href="#example" class="text-base text-white hover:text-gray-200"> コンサル実績 </a>
                 </div>
 
                 <div class="px-5 py-2">
-                    <a href="/fee" class="text-base text-white hover:text-gray-200"> よくある質問 </a>
+                    <a href="#pricing" class="text-base text-white hover:text-gray-200"> 料金プラン </a>
                 </div>
 
                 <!-- <div class="px-5 py-2">
@@ -695,7 +692,7 @@
                 </div> -->
 
                 <div class="px-5 py-2">
-                    <a href="/contact" class="text-base text-white hover:text-gray-200"> お問合せ・無料相談 </a>
+                    <a href="#contact" class="text-base text-white hover:text-gray-200"> お問合せ・無料相談 </a>
                 </div>
             </nav>
             <div class="mt-8 flex justify-center space-x-6">
