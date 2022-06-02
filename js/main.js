@@ -22,17 +22,6 @@ $(function () {
     });
 });
 
-jQuery(function ($) {
-    $('.box').bgSwitcher({
-        images: ['/img/demo.jpg', '/img/shizen.jpeg'],
-        interval: 5000,
-        loop: true,
-        shuffle: true,
-        effect: "drop",
-        duration: 2000,
-        easing: "swing"
-    });
-});
 
 $(window).on('load', function () {
     $('body').fadeIn(1000);
