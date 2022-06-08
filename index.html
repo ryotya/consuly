@@ -21,13 +21,13 @@
 </head>
 
 <body style="display: none;">
-    <nav class="bg-white lg:fixed w-screen z-50">
+    <nav class="bg-white lg:fixed w-screen z-50 lg:border-none border-b-2">
         <div class="mx-auto">
             <div class="flex justify-between h-32 lg:h-20 pl-8">
                 <div class="flex-shrink-0 flex items-center">
                     <a href="/index" class="text-3xl lg:text-2xl pl-1">Consuly</a>
                 </div>
-                <div class="hidden lg:flex">
+                <div class="flex">
                     <!-- Current: "border-cyan-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
                     <a href="#why"
                         class="border-transparent text-gray-900 hover:border-gray-400 duration-500 hover:text-gray-400 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium ml-8">
@@ -41,24 +41,6 @@
                     <a href="#pricing"
                         class="border-transparent text-gray-900 hover:border-gray-400 duration-500 hover:text-gray-400 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium ml-8">
                         料金プラン</a>
-                    <!-- <a href="#"
-                        class="border-transparent text-gray-900 hover:border-gray-400 duration-500 hover:text-gray-400 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium ml-8">
-                        採用情報<svg class="h-6 w-6" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
-                            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" />
-                            <rect x="8" y="8" width="12" height="12" rx="2" />
-                            <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" /></svg></a> -->
-                    <!-- <div class="grid grid-cols-1 pb-2 text-center ml-8">
-                        <p
-                            class="text-gray-800 duration-500 inline-flex items-end px-1 pt-1 text-xl font-bold tracking-wide">
-                            <svg class="h-8 w-8 pr-2 text-gray-900" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path
-                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-                            </svg>042-768-8351</p>
-                        <p class="text-black duration-500 inline-flex items-start px-1 pt-1 text-sm font-medium">
-                            受付時間：平日9:00〜19:00</p>
-                    </div> -->
                     <a href="#contact"
                         class="bg-cyan-500 hover:bg-opacity-80 text-white duration-300 inline-flex items-center px-4 text-base font-medium ml-8 rounded m-4">
                         <svg class="h-6 w-6 text-white pr-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
@@ -66,40 +48,9 @@
                             <path stroke="none" d="M0 0h24v24H0z" />
                             <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" /></svg>お問合せ・無料相談</a>
                 </div>
-
-                <!-- mobile menu -->
-                <div class="flex lg:hidden items-center">
-                    <!-- <div class="grid grid-cols-1 pb-2 text-center ml-8">
-                        <p
-                            class="text-gray-900 duration-500 inline-flex items-end px-1 pt-1 text-3xl font-bold tracking-wide">
-                            <svg class="h-10 w-10 pr-2 text-gray-900" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                            </svg>
-                            042-768-8351</p>
-                        <p class="text-gray-900 duration-500 inline-flex items-start px-1 pt-1 text-xl font-medium">
-                            受付時間：平日9:00〜19:00</p>
-                    </div> -->
-                    <div class="openbtn1 mx-6"><span></span><span></span><span></span></div>
-                    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-                        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
-                    </script>
-                    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-2-4/js/5-2-4.js">
-                    </script>
-                </div>
             </div>
         </div>
     </nav>
-    <mobilenav class="float-right w-screen py-8 bg-black">
-        <ul class="text-center text-2xl space-y-8 text-white">
-            <li class="py-4"><a href="#why">なぜConsuly</a></li>
-            <li class="py-4"><a href="#feature">業務内容</a></li>
-            <li class="py-4"><a href="#example">コンサル実績</a></li>
-            <li class="py-4"><a href="#pricing">よくある質問</a></li>
-            <li class="py-4"><a href="#contact">お問合せ・ご相談</a></li>
-        </ul>
-    </mobilenav>
 
     <section>
         <div class="lg:h-screen flex items-center">
@@ -158,20 +109,23 @@
                 </div>
                 <div class="pt-16 lg:pt-0">
                     <div>
-                        <h2 class="text-5xl lg:text-3xl border-b-4 border-yellow-500 inline-block pb-4 lg:pb-1">Web専属の社員を採用できない</h2>
-                        <p class="text-3xl lg:text-base mt-8 lg:mt-2">
+                        <h2 class="text-5xl lg:text-3xl border-b-4 border-yellow-500 inline-block pb-4 lg:pb-1">
+                            Web専属の社員を採用できない</h2>
+                        <p class="text-4xl lg:text-base mt-8 lg:mt-4 leading-normal lg:leading-relaxed">
                             エンジニアやウェブ担当を採用したいと考えてはいるものの、金額的にもスキル的にもなかなかマッチする人材がいないというのが現実かと思います。今後もweb人材の需要が高まっていくことは予想されている中で、さらに採用が困難になっていくでしょう。
                         </p>
                     </div>
                     <div class="pt-24 lg:pt-12">
-                        <h2 class="text-5xl lg:text-3xl border-b-4 border-yellow-500 inline-block pb-4 lg:pb-1">ホームページ制作も集客もしたい</h2>
-                        <p class="text-3xl lg:text-base mt-8 lg:mt-2">
+                        <h2 class="text-5xl lg:text-3xl border-b-4 border-yellow-500 inline-block pb-4 lg:pb-1">
+                            ホームページ制作も集客もしたい</h2>
+                        <p class="text-4xl lg:text-base mt-8 lg:mt-4 leading-normal lg:leading-relaxed">
                             ホームページをまだ制作していない方や、すでにホームページを持っているがリニューアルをしたいという方でもConsulyにお任せください！<br>戦略を立てて、その上でどのようなページ構成にするかなども一緒にゼロから考えていきます。
                         </p>
                     </div>
                     <div class="pt-24 lg:pt-12">
-                        <h2 class="text-5xl lg:text-3xl border-b-4 border-yellow-500 inline-block pb-4 lg:pb-1">ITに関する質問が気軽にできない</h2>
-                        <p class="text-3xl lg:text-base mt-8 lg:mt-2">
+                        <h2 class="text-5xl lg:text-3xl border-b-4 border-yellow-500 inline-block pb-4 lg:pb-1">
+                            ITに関する質問が気軽にできない</h2>
+                        <p class="text-4xl lg:text-base mt-8 lg:mt-4 leading-normal lg:leading-relaxed">
                             社内で導入するツールやシステムに関して、気軽に質問したいけどなかなかそういった知識のある人間が周りにいないという事はあるかと思います。そういった場合でもConsulyに関しては24時間365日質問を受け付けております。
                         </p>
                     </div>
@@ -181,14 +135,15 @@
 
         <!-- Feature section with grid -->
         <div class="relative bg-white relative bg-white pb-24 lg:pb-32 pt-16 lg:pt-0" id="feature">
-            <div class="mx-auto max-w-md px-4 text-center lg:max-w-3xl lg:px-6 lg:px-8 lg:max-w-7xl">
-                <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">サポートの業務一覧</h2>
-                <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight lg:text-3xl">
+            <div class="mx-auto px-4 text-center max-w-3xl lg:px-6 lg:px-8 lg:max-w-7xl">
+                <h2 class="text-2xl lg:text-base font-semibold tracking-wider text-cyan-600 uppercase">サポートの業務一覧</h2>
+                <p
+                    class="mt-2 text-5xl lg:text-3xl font-extrabold text-gray-900 tracking-tight lg:text-3xl leading-relaxed ">
                     IT、Webのスペシャリストが幅広くサポート致します！</p>
-                <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+                <p class="mt-5 max-w-2xl lg:max-w-prose mx-auto text-2xl lg:text-xl text-gray-500">
                     専属のコンサルタントがWebサイトの新規制作やリニューアル、SEOやSNS集客までを一貫してサポートします。</p>
                 <div class="mt-12">
-                    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:grid-cols-3">
+                    <div class="grid gap-8 grid-cols-2 lg:grid-cols-3">
                         <div class="pt-6">
                             <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
                                 <div class="-mt-6">
@@ -203,9 +158,10 @@
 
                                         </span>
                                     </div>
-                                    <h3 class="mt-8 text-xl font-medium text-gray-900 tracking-tight">webサイト新規制作
+                                    <h3 class="mt-8 text-2xl lg:text-xl font-medium text-gray-900 tracking-tight">
+                                        webサイト新規制作
                                     </h3>
-                                    <p class="mt-5 text-base text-gray-500 text-left">
+                                    <p class="mt-5 text-xl lg:text-base text-gray-500 text-left">
                                         まずはどのようなサイトにするべきなのかなどの戦略を立てた上で、Webサイトを新規制作していきます。</p>
                                 </div>
                             </div>
@@ -224,9 +180,10 @@
                                             </svg>
                                         </span>
                                     </div>
-                                    <h3 class="mt-8 text-xl font-medium text-gray-900 tracking-tight">Webサイトリニューアル
+                                    <h3 class="mt-8 text-2xl lg:text-xl font-medium text-gray-900 tracking-tight">
+                                        Webサイトリニューアル
                                     </h3>
-                                    <p class="mt-5 text-base text-gray-500 text-left">
+                                    <p class="mt-5 text-xl lg:text-base text-gray-500 text-left">
                                         既存サイトの良い点、悪い点などを洗い出した上で、webサイトのリニューアルを行います。
                                     </p>
                                 </div>
@@ -246,8 +203,9 @@
                                                 <line x1="12" y1="18" x2="12.01" y2="18" /></svg>
                                         </span>
                                     </div>
-                                    <h3 class="mt-8 text-xl font-medium text-gray-900 tracking-tight">スマホサイト制作</h3>
-                                    <p class="mt-5 text-base text-gray-500 text-left">
+                                    <h3 class="mt-8 text-2xl lg:text-xl font-medium text-gray-900 tracking-tight">
+                                        スマホサイト制作</h3>
+                                    <p class="mt-5 text-xl lg:text-base text-gray-500 text-left">
                                         webサイトを作る上で必須条件になってくるスマホ画面の制作を行います。</p>
                                 </div>
                             </div>
@@ -266,9 +224,9 @@
                                                 <path d="M4 20h7a4 4 0 0 0 4-4V4" /></svg>
                                         </span>
                                     </div>
-                                    <h3 class="mt-8 text-xl font-medium text-gray-900 tracking-tight">SEO対策
+                                    <h3 class="mt-8 text-2xl lg:text-xl font-medium text-gray-900 tracking-tight">SEO対策
                                     </h3>
-                                    <p class="mt-5 text-base text-gray-500 text-left">
+                                    <p class="mt-5 text-xl lg:text-base text-gray-500 text-left">
                                         効果的なSEO対策を戦略を立てた上で、実践のサポートをさせていただきます。</p>
                                 </div>
                             </div>
@@ -290,8 +248,9 @@
                                                 <path d="M17 9v6h-1.5a1.5 1.5 0 1 1 1.5 -1.5" /></svg>
                                         </span>
                                     </div>
-                                    <h3 class="mt-8 text-xl font-medium text-gray-900 tracking-tight">SNS広告出稿</h3>
-                                    <p class="mt-5 text-base text-gray-500 text-left">
+                                    <h3 class="mt-8 text-2xl lg:text-xl font-medium text-gray-900 tracking-tight">
+                                        SNS広告出稿</h3>
+                                    <p class="mt-5 text-xl lg:text-base text-gray-500 text-left">
                                         SNS広告の出稿やアカウント作成をサポートさせていただきます。場合によってはバナー制作などもご協力させていただきます。</p>
                                 </div>
                             </div>
@@ -314,7 +273,7 @@
                                     </div>
                                     <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">ITに関するアドバイス
                                     </h3>
-                                    <p class="mt-5 text-base text-gray-500 text-left">
+                                    <p class="mt-5 text-2xl lg:text-xl lg:text-base text-gray-500 text-left">
                                         ITに関するご質問を、365日24時間受付いたします。<br><span
                                             class="text-sm">※返信はコンサルタントが行えるタイミングでさせていただきます。</span></p>
                                 </div>
@@ -360,8 +319,7 @@
                     <p class="mt-5 mx-auto max-w-prose text-xl text-gray-500">
                         20名以下の企業様を対象に、様々な企業様をサポートさせていただいております。</p>
                 </div>
-                <div
-                    class="mt-12 mx-auto max-w-md px-4 grid gap-8 lg:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
+                <div class="mt-12 mx-auto max-w-md px-4 grid gap-8 lg:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
                     <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                         <div class="flex-shrink-0">
                             <img class="h-48 w-full object-cover"
